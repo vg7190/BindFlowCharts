@@ -1,6 +1,10 @@
 #include<stdio.h>
-main()
+#include<string.h>
+main(int argc, char *argv[])
 {
 printf("hello world\n");
 printf("Should auto-build again\n");
+
+printf("argument is :");
+puts(argv[1]);
 }
