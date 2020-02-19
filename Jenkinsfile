@@ -10,7 +10,7 @@ pipeline {
         stage('Test'){
             steps {
                 echo 'Test!'
-                sh "./a.out"
+                sh "./a.out $name"
             }
         }
         stage('Deploy'){
