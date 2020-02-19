@@ -3,6 +3,6 @@
 main(int argc, char *argv[])
 {
 printf("hello world\n");
-printf("Should auto-build again\n");
+printf("hello %s \n",argv[1]);
 
 }
