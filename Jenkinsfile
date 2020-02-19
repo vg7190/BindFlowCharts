@@ -4,7 +4,7 @@ pipeline {
         stage('Build'){
             steps {
                 echo 'Build!'
-                sh "cc temp.c"
+                sh "cc hello.c"
             }
         }
         stage('Test'){
