@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('script stage check'){
             steps{
-                script{
+                //script{
                     echo "PATH is anoop"
-                }
+                //}
             }
         }
         stage('Build'){
