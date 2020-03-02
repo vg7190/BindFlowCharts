@@ -1,6 +1,13 @@
 pipeline {
     agent any
     stages {
+        stage('script stage check'){
+            steps{
+                script{
+                    echo "PATH is anoop"
+                }
+            }
+        }
         stage('Build'){
             steps {
                 echo 'Build!'
