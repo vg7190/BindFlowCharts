@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T12:58:45.796Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="1cGWZTGAhL5lJcuSedrH" version="14.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T14:51:20.658Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="T8LXLdvE16AmsCLs7P0-" version="14.0.3" type="github">
   <diagram id="Kk9kfs5vC2iuPm7ne2sn" name="Page-1">
     <mxGraphModel dx="1422" dy="-2745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1455,8 +1455,8 @@
         <mxCell id="v05QwtvTRVD2gzsDgyaa-263" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="6450" y="5800" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-264" value="&lt;span&gt;constructor of&amp;nbsp;PendingTSAReq&lt;br&gt;this creates an instance of &lt;br&gt;pending TSA request&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="6440" y="5825" width="180" height="50" as="geometry" />
+        <mxCell id="v05QwtvTRVD2gzsDgyaa-264" value="&lt;span&gt;constructor of&amp;nbsp;PendingTSAReq&lt;br&gt;this creates an instance of &lt;br&gt;pending TSA request&lt;br&gt;for&lt;br&gt;&lt;b&gt;&quot;LEGACY_LOGON&quot;&lt;/b&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="6440" y="5810" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-266" target="v05QwtvTRVD2gzsDgyaa-270" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -3119,6 +3119,11 @@
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iAHMpoSP5QQGHjzuNT7X-70" target="iAHMpoSP5QQGHjzuNT7X-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iAHMpoSP5QQGHjzuNT7X-70" target="iAHMpoSP5QQGHjzuNT7X-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="491" y="11040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-70" value="got&amp;nbsp;SSVR_BIND_DOWN" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="380.5" y="10805" width="220" height="60" as="geometry" />
         </mxCell>
@@ -3190,7 +3195,7 @@
           <mxGeometry x="950" y="10915" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-95" value="on PSVR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="10570" width="60" height="20" as="geometry" />
+          <mxGeometry x="320.5" y="10815" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iAHMpoSP5QQGHjzuNT7X-96" target="iAHMpoSP5QQGHjzuNT7X-107">
           <mxGeometry relative="1" as="geometry">
@@ -3215,7 +3220,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-99" value="TDF ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="595" y="10470" width="80" height="80" as="geometry" />
+          <mxGeometry x="595" y="10530" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-102" value="Return : TDF only supports&lt;br&gt;disc_ss -e, nothing else" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="575" y="10670" width="120" height="60" as="geometry" />
@@ -3224,7 +3229,7 @@
           <mxGeometry x="685" y="10260" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-106" value="N - RDC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="671" y="10490" width="60" height="20" as="geometry" />
+          <mxGeometry x="685" y="10550" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-107" value="&lt;div style=&quot;text-align: left&quot;&gt;We have logaddr of client,&lt;/div&gt;&lt;div&gt;Check in record, if client is present with logaddr.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Extract subid&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="760" y="10165" width="301" height="230" as="geometry" />
@@ -3244,11 +3249,47 @@
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-116" value="SPSVRConnMgr::processDiscSs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1051" y="10060" width="190" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="iAHMpoSP5QQGHjzuNT7X-117" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="10480" width="120" height="60" as="geometry" />
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-117" value="&lt;div&gt;if it msg from self, Do nothing.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If it is GO_TO_PRIMARY_SSVR_ALL_SCODE,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;send everyone in subnet GO_TO_PRIMARY_SSVR_SCODE.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If it is GO_TO_PRIMARY_SSVR_SCODE,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;If connected to primary; DO nothing&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Else Disconnect &amp;amp; Reconnect to primary SSVR.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If it is disc_ss with no option&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;if it msg from self, forwarded to all psvr in subnet.&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;switch to next ssvr&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="10480" width="360" height="180" as="geometry" />
         </mxCell>
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-118" value="SSVRConnMgr::processDiscSs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="716" y="10460" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iAHMpoSP5QQGHjzuNT7X-120" target="iAHMpoSP5QQGHjzuNT7X-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="11040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iAHMpoSP5QQGHjzuNT7X-120" target="iAHMpoSP5QQGHjzuNT7X-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="491" y="11280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-120" value="got&amp;nbsp;SPSVR_BIND_DOWN" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360.5" y="11065" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-121" value="on SSVR&lt;br&gt;Basically when psvr gets disconnected&lt;br&gt;before disconnecting&lt;br&gt;it sends this msg to ssvr&lt;br&gt;so ssvr can do clean up" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="11045" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-123" value="&lt;div&gt;find SPSVR record by logaddr&lt;/div&gt;&lt;div&gt;extract slot&lt;/div&gt;&lt;div&gt;extract df_spsvr_flag_value&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;find slot record to Check if slot is there in record?&lt;/div&gt;&lt;div&gt;extract count of number of psvr on slot&lt;/div&gt;&lt;div&gt;decrement count--&lt;/div&gt;&lt;div&gt;delete slot if count == 0&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;delete psvr record&amp;nbsp;&lt;/div&gt;&lt;div&gt;send notification to various processes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="704.14" y="11010" width="295.86" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-124" value="deleteSPSVR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="10990" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iAHMpoSP5QQGHjzuNT7X-126" target="iAHMpoSP5QQGHjzuNT7X-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="11280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-126" value="got&amp;nbsp;BIND_CLIENT_TOKEN_PLEASE" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="11435" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-128" value="&lt;div&gt;extract token_value&lt;/div&gt;&lt;div&gt;extract net_addr_value&lt;/div&gt;&lt;div&gt;extract proxy_addr_value&lt;/div&gt;&lt;div&gt;extract ClntVersion&lt;/div&gt;&lt;div&gt;extract various flags&lt;/div&gt;&lt;div&gt;mTcpFlag, mUdpFlag, mMcastFlag, mLogonPacingFlag&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if Mcast is set, extract mClntMcastGrp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;extract username_value&lt;/div&gt;&lt;div&gt;extract compid_value&lt;/div&gt;&lt;div&gt;extract userid_value&lt;/div&gt;&lt;div&gt;extract sess_logid_value&lt;/div&gt;&lt;div&gt;extract mPatternFileVer&lt;/div&gt;&lt;div&gt;extract mPatternFileVer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;set the mCookieFlag flag&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Log all the extracted data &amp;amp; stuff in tmp_rec&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;refuse all logons if in failover mode on SPSVR&lt;/div&gt;&lt;div&gt;refuse all logons if force_server_offline is on&lt;/div&gt;&lt;div&gt;refuse login if already &quot;mMaxLogonPerSec&quot; client tried login in same second&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;check if flag combination is correct, if not refuse logon&lt;/div&gt;&lt;div&gt;if tsa_logon_from_cache on,do not go to TSA for logon, just try to log in from cache!&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;create pending TSA request instance for &quot;TOKEN_LOGON&quot;&lt;/div&gt;&lt;div&gt;and rest you already know as above.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="702" y="11250" width="490" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-129" value="processTSALogon" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="686" y="11230" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
