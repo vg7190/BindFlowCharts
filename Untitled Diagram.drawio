@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T10:32:26.957Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="auqHWVjPfNeThlKR-RLh" version="14.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T13:54:58.604Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="imXxoI_XWJLY-2ziMpCg" version="14.0.3" type="github">
   <diagram id="Kk9kfs5vC2iuPm7ne2sn" name="Page-1">
-    <mxGraphModel dx="1422" dy="-2802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="-3021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -279,21 +279,8 @@
         <mxCell id="5FcRQdoBI0TOSIp_MNyA-3" value="p.s : this will never execute&lt;br&gt;because we are already under&lt;br&gt;special user condition" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="3430" y="6110" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5FcRQdoBI0TOSIp_MNyA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5FcRQdoBI0TOSIp_MNyA-5" target="5FcRQdoBI0TOSIp_MNyA-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3840" y="6080" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="5FcRQdoBI0TOSIp_MNyA-5" value="set mCQCompId by calling : mapFirmidToCompid" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3640" y="6050" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5FcRQdoBI0TOSIp_MNyA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5FcRQdoBI0TOSIp_MNyA-7" target="5FcRQdoBI0TOSIp_MNyA-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4000" y="6080" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5FcRQdoBI0TOSIp_MNyA-7" value="findSlotForClient :&lt;br&gt;here we create slot&lt;br&gt;tcp/udp/mcast" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3840" y="6050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5FcRQdoBI0TOSIp_MNyA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5FcRQdoBI0TOSIp_MNyA-11" target="5FcRQdoBI0TOSIp_MNyA-21" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -776,21 +763,8 @@
         <mxCell id="v05QwtvTRVD2gzsDgyaa-75" value="p.s : this will never execute&lt;br&gt;because we are already under&lt;br&gt;special user condition" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="3430" y="6110" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-77" target="v05QwtvTRVD2gzsDgyaa-79" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3840" y="6080" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-77" value="set mCQCompId by calling : mapFirmidToCompid" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3640" y="6050" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-79" target="v05QwtvTRVD2gzsDgyaa-81" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4000" y="6080" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-79" value="findSlotForClient :&lt;br&gt;here we create slot&lt;br&gt;tcp/udp/mcast" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3840" y="6050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-81" target="v05QwtvTRVD2gzsDgyaa-91" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1279,21 +1253,17 @@
         <mxCell id="v05QwtvTRVD2gzsDgyaa-214" value="p.s : this will never execute&lt;br&gt;because we are already under&lt;br&gt;special user condition" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="3430" y="6110" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-216" target="v05QwtvTRVD2gzsDgyaa-218" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3840" y="6080" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v05QwtvTRVD2gzsDgyaa-216" target="v05QwtvTRVD2gzsDgyaa-218">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-216" value="set mCQCompId by calling : mapFirmidToCompid" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3640" y="6050" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-218" target="v05QwtvTRVD2gzsDgyaa-220" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4000" y="6080" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="v05QwtvTRVD2gzsDgyaa-218" target="v05QwtvTRVD2gzsDgyaa-220">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-218" value="findSlotForClient :&lt;br&gt;here we create slot&lt;br&gt;tcp/udp/mcast" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3840" y="6050" width="120" height="60" as="geometry" />
+        <mxCell id="v05QwtvTRVD2gzsDgyaa-218" value="&lt;div&gt;This will either find a slot or create one&lt;/div&gt;&lt;div&gt;if config allows. Will set tmp_rec-&amp;gt;mSlot&lt;/div&gt;&lt;div&gt;if unable to find/create slot, send refused and delete record&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3820" y="6050" width="170" height="160" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-220" target="v05QwtvTRVD2gzsDgyaa-229" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -3301,11 +3271,75 @@
             <mxPoint x="720" y="11750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iAHMpoSP5QQGHjzuNT7X-131" value="got&amp;nbsp;CLNT_REBIND_PLEASE" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="11720" width="240" height="60" as="geometry" />
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iAHMpoSP5QQGHjzuNT7X-131" target="iAHMpoSP5QQGHjzuNT7X-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490.0344827586207" y="12010" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="iAHMpoSP5QQGHjzuNT7X-133" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="11720" width="120" height="60" as="geometry" />
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-131" value="got&amp;nbsp;CLNT_REBIND_PLEASE" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="11851.29" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iAHMpoSP5QQGHjzuNT7X-133" target="iAHMpoSP5QQGHjzuNT7X-140">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="11854.857142857143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-133" value="&lt;div&gt;&lt;span&gt;	&lt;/span&gt;extract mTcpFlag, mUdpFlag, mMcastFlag, mLogonPacingFlag&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;extract clnt_mcast_grp_value if mMcastFlag flag is set&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;get inaddr from clnt_mcast_grp_value&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;extract sess_logid_value&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;extract client&#39;s logical address from where this rebind request has come&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;if psvr is in failover, refuse the reconnection request&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;call rebindClient();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="662" y="11806.29" width="540" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-134" value="&lt;span&gt;findSlotForClient()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="3810" y="6030" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-140" value="&lt;div&gt;extract FID_SLOT, FID_REBIND_FLAG, FID_PROXY_ADDR, FID_NET_ADDR, FID_MSG_PATTERN_VERSION, FID_CLNT_VERSION, turbomode&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if not rebind record, just send logon OK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;findSlotForClient() : will either find a slot or create one&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;Update new client record() with following : FID_SLOT, FID_REBIND_FLAG, FID_SESSION_LOG_ID&lt;/div&gt;&lt;div&gt;update the BSDMGR with client record (ffm2)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;increment client count on slot&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Update turbo mode (FID_TURBO_MODE) for slot&lt;/div&gt;&lt;div&gt;send client announcement message to processes&lt;/div&gt;&lt;div&gt;finally send CLNT_REBIND_OK to client&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1254.5" y="11772.57" width="480" height="217.43" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-141" value="&lt;span&gt;rebindClient()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="11750" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iAHMpoSP5QQGHjzuNT7X-144" target="iAHMpoSP5QQGHjzuNT7X-146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="12100.310344827587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iAHMpoSP5QQGHjzuNT7X-144" target="iAHMpoSP5QQGHjzuNT7X-153">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490.7241379310344" y="12440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-144" value="&lt;span&gt;got&amp;nbsp;UPDATE_CLNT_TURBO_PLEASE&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="12175.15" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-146" value="&lt;div&gt;Extract following fids from request..&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;FID_USER_LOGICAL_ADDRESS&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;FID_PROXY_ADDR&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;FID_MSG_PATTERN_VERSION&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;FID_SESSION_LOG_ID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Look for client in BSDMGR record at load ffm2&lt;/div&gt;&lt;div&gt;Extract following fids from client record..&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;FID_SLOT&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;FID_CLNT_VERSION&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Update the client record..&lt;/div&gt;&lt;div&gt;for this load fids in ffm3 with&amp;nbsp;&lt;/div&gt;&lt;div&gt;FID_MSG_PATTERN_VERSION fid &amp;amp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;at last update BSDMGR record&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Update turbo mode in slot&lt;/div&gt;&lt;div&gt;Send response back to client stating&amp;nbsp;&lt;/div&gt;&lt;div&gt;turbo has been updated or failed.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="12070.31" width="350" height="269.69" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-147" value="processUpdateClntTurboPlease" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="646" y="12050.31" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-148" value="at PSVR&lt;br&gt;to connect new client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="11450" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-150" value="to PSVR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="11880" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-151" value="to PSVR&lt;br&gt;to update turbo on slot" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="12190.15" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iAHMpoSP5QQGHjzuNT7X-153" target="iAHMpoSP5QQGHjzuNT7X-157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="12440.310344827587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-153" value="got&amp;nbsp;IS_STILL_SUPERBOUND" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390.5" y="12470.15" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-155" value="to PSVR&lt;br&gt;from sbind&lt;br&gt;To check if client is still connected" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="12405" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-157" value="&lt;div&gt;Extract FID_USER_LOGICAL_ADDRESS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Look in BSDMGR for record with the same FID_USER_LOGICAL_ADDRESS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if client found,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Extract FID_SESSION_LOG_ID&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Send STILL_SUPERBOUND to SBIND via REMQ&lt;/div&gt;&lt;div&gt;Else&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Send SUPERUNBIND_CLIENT_PLEASE to SBIND via REMQ&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="12410.31" width="300" height="179.69" as="geometry" />
+        </mxCell>
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-158" value="processIsStillSuperBound" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="12390.31" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
