@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-29T06:33:46.243Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="gWNWRlYRsSViGZwkpBzK" version="14.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-29T08:00:48.987Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="gXqPArzCgdvOKiVJzsM0" version="14.0.3" type="github">
   <diagram id="Kk9kfs5vC2iuPm7ne2sn" name="Page-1">
-    <mxGraphModel dx="2844" dy="-2097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="-3104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2981,8 +2981,8 @@
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-48" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1610" y="9820" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="iAHMpoSP5QQGHjzuNT7X-49" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;delete pending TSA request.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;log error &amp;amp; sendCliEntsOk() : with failure reason in parameter&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1550" y="9870" width="160" height="100" as="geometry" />
+        <mxCell id="iAHMpoSP5QQGHjzuNT7X-49" value="&lt;div&gt;&lt;span&gt;delete pending TSA request.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;log error &amp;amp; sendCliEntsOk() : with failure reason in parameter&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;For details do ctrl + F&quot;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="9870" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="iAHMpoSP5QQGHjzuNT7X-51" target="iAHMpoSP5QQGHjzuNT7X-65" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -3324,22 +3324,73 @@
         <mxCell id="vjUfeb-SnomTdb9zTc2N-10" value="checkTimeEverySec" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="12660" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vjUfeb-SnomTdb9zTc2N-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-15" target="vjUfeb-SnomTdb9zTc2N-19">
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-15" target="vjUfeb-SnomTdb9zTc2N-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="481" y="13080" as="targetPoint" />
+            <mxPoint x="640" y="13050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="13120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-15" value="TOKEN_LOGON" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="426" y="12920" width="109.5" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="vjUfeb-SnomTdb9zTc2N-19" value="Update&amp;nbsp;mBindError with&amp;nbsp;BINDE_TSA_TIMEOUT state&lt;br&gt;&lt;br&gt;&amp;amp;&lt;br&gt;&lt;br&gt;tryLogonFromCache : for details check above" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="391.13" y="13040" width="179.25" height="120" as="geometry" />
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-20" value="logClientIn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="6195" y="5910" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-21" value="&lt;span&gt;logClientIn&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="3130" y="5910" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-24" value="Update&amp;nbsp;mBindError with&amp;nbsp;BINDE_TSA_TIMEOUT state&lt;br&gt;&amp;amp;&lt;br&gt;tryLogonFromCache : &lt;br&gt;&quot;for details do ctrl + F&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="676.75" y="13010" width="203.25" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-26" target="vjUfeb-SnomTdb9zTc2N-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="13160.333333333334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-26" target="vjUfeb-SnomTdb9zTc2N-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480.7142857142858" y="13280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-26" value="LEGACY_LOGON" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="426" y="13120" width="109.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-29" target="vjUfeb-SnomTdb9zTc2N-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="13280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-29" target="vjUfeb-SnomTdb9zTc2N-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480.7142857142858" y="13400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-29" value="ENTS_UPDATE_REQ" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400.39" y="13240" width="160.71" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-31" value="Log the error :&amp;nbsp;&lt;br&gt;Ents update rqst timed out&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="13250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-33" target="vjUfeb-SnomTdb9zTc2N-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="13400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-33" value="IMPERSONATION" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420.39" y="13385" width="120.71" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-38" value="&lt;div&gt;Set dest address everyone, since client&#39;s logical address is not available&lt;/div&gt;&lt;div&gt;Add FID_REASON ( reason is 0 - success, for error response CLI_ENTS_REFUSED passed.)&lt;/div&gt;&lt;div&gt;Add FID_USR_ID&lt;/div&gt;&lt;div&gt;if mTrTime.empty then add FID_RESP_TIME_TRACE_STR&lt;/div&gt;&lt;div&gt;Build the CLI_ENTS_OK message&lt;/div&gt;&lt;div&gt;send the message to the client&#39;s proxy address (ISI)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="13370" width="390" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-39" value="sendCliEntsOk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="13350" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-40" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="9820" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
