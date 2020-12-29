@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-29T08:00:48.987Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="gXqPArzCgdvOKiVJzsM0" version="14.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-29T12:48:36.279Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="MHkpOZ9tqVsdA0kxy3cE" version="14.0.3" type="github">
   <diagram id="Kk9kfs5vC2iuPm7ne2sn" name="Page-1">
-    <mxGraphModel dx="813" dy="-3104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="-3072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -504,66 +504,14 @@
         <mxCell id="v05QwtvTRVD2gzsDgyaa-5" value="extract all the FID values" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1070" y="5820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-7" target="v05QwtvTRVD2gzsDgyaa-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1370" y="5850" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-7" value="mTrialFlag &lt;br&gt;is set ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="5810" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-10" target="v05QwtvTRVD2gzsDgyaa-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-10" target="v05QwtvTRVD2gzsDgyaa-25" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1670" y="5850" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-10" value="processTrialLogonRqst" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="5820" width="170" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-11" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1330" y="5830" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-14" target="v05QwtvTRVD2gzsDgyaa-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-14" target="v05QwtvTRVD2gzsDgyaa-19" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1320" y="6030" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-14" value="user logged in locally ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1395" y="5920" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-16" target="v05QwtvTRVD2gzsDgyaa-22" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1586" y="6150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-16" value="sendTrialLoginResp :&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1511" y="6030" width="149" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-17" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1501" y="5950" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-19" target="v05QwtvTRVD2gzsDgyaa-21" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1310" y="6140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-19" value="sendSbindTrialLogonReq &amp;amp;&amp;nbsp;&lt;br&gt;add tmp_rec to mPendingTrialLogons" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="6030" width="160" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-20" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1340" y="5950" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-21" value="send&amp;nbsp;SBIND_TRIAL_LOGON_REQ &lt;br&gt;to remq (sbind)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="6140" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-22" value="&lt;span&gt;send&amp;nbsp;&lt;/span&gt;&lt;span&gt;TRIAL_LOGIN_RESP&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;br&gt;to isi&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="6140" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-25" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -968,66 +916,14 @@
         <mxCell id="v05QwtvTRVD2gzsDgyaa-144" value="extract all the FID values" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1070" y="5820" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-146" target="v05QwtvTRVD2gzsDgyaa-149" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1370" y="5850" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-146" value="mTrialFlag &lt;br&gt;is set ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="5810" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-149" target="v05QwtvTRVD2gzsDgyaa-153" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-149" target="v05QwtvTRVD2gzsDgyaa-164" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1670" y="5850" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-149" value="processTrialLogonRqst" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="5820" width="170" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-150" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1330" y="5830" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-153" target="v05QwtvTRVD2gzsDgyaa-155" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-153" target="v05QwtvTRVD2gzsDgyaa-158" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1320" y="6030" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-153" value="user logged in locally ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1395" y="5920" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-155" target="v05QwtvTRVD2gzsDgyaa-161" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1586" y="6150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-155" value="sendTrialLoginResp :&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1511" y="6030" width="149" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-156" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1501" y="5950" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-158" target="v05QwtvTRVD2gzsDgyaa-160" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1310" y="6140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-158" value="sendSbindTrialLogonReq &amp;amp;&amp;nbsp;&lt;br&gt;add tmp_rec to mPendingTrialLogons" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="6030" width="160" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-159" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="1340" y="5950" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-160" value="send&amp;nbsp;SBIND_TRIAL_LOGON_REQ &lt;br&gt;to remq (sbind)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="6140" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-161" value="&lt;span&gt;send&amp;nbsp;&lt;/span&gt;&lt;span&gt;TRIAL_LOGIN_RESP&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;br&gt;to isi&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="6140" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-164" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -3300,42 +3196,34 @@
         <mxCell id="vjUfeb-SnomTdb9zTc2N-3" value="&lt;span&gt;Has &lt;br&gt;it been already &lt;br&gt;a second ?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="12666.67" width="100" height="83.33" as="geometry" />
         </mxCell>
-        <mxCell id="vjUfeb-SnomTdb9zTc2N-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-5">
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-5" target="vjUfeb-SnomTdb9zTc2N-79">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="12930" as="targetPoint" />
+            <mxPoint x="240" y="14271.379310344828" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vjUfeb-SnomTdb9zTc2N-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-5" target="vjUfeb-SnomTdb9zTc2N-9">
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-5" target="vjUfeb-SnomTdb9zTc2N-92">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="12810" as="targetPoint" />
+            <mxPoint x="340.5" y="12810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vjUfeb-SnomTdb9zTc2N-5" value="ssvr ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-5" value="not_ssvr ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="12770" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vjUfeb-SnomTdb9zTc2N-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-9" target="vjUfeb-SnomTdb9zTc2N-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="12890" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vjUfeb-SnomTdb9zTc2N-9" value="&lt;br&gt;check for various timeouts/events measured&lt;br&gt;&lt;div&gt;if yes, send error response or take other action (according to request type)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340.5" y="12750" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="vjUfeb-SnomTdb9zTc2N-10" value="checkTimeEverySec" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="12660" width="120" height="20" as="geometry" />
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-10" value="ClntConnMgr::checkTimeEverySec()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="12760" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-15" target="vjUfeb-SnomTdb9zTc2N-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="13050" as="targetPoint" />
+            <mxPoint x="1218" y="13151" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="13120" as="targetPoint" />
+            <mxPoint x="1058" y="13221" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-15" value="TOKEN_LOGON" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="426" y="12920" width="109.5" height="80" as="geometry" />
+          <mxGeometry x="1004" y="13021" width="109.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-20" value="logClientIn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="6195" y="5910" width="70" height="20" as="geometry" />
@@ -3344,53 +3232,215 @@
           <mxGeometry x="3130" y="5910" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-24" value="Update&amp;nbsp;mBindError with&amp;nbsp;BINDE_TSA_TIMEOUT state&lt;br&gt;&amp;amp;&lt;br&gt;tryLogonFromCache : &lt;br&gt;&quot;for details do ctrl + F&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="676.75" y="13010" width="203.25" height="120" as="geometry" />
+          <mxGeometry x="1254.75" y="13111" width="203.25" height="120" as="geometry" />
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-26" target="vjUfeb-SnomTdb9zTc2N-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="13160.333333333334" as="targetPoint" />
+            <mxPoint x="1218" y="13261.333333333334" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vjUfeb-SnomTdb9zTc2N-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-26" target="vjUfeb-SnomTdb9zTc2N-29">
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480.7142857142858" y="13280" as="targetPoint" />
+            <mxPoint x="1058.5" y="13341.026472534746" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-26" value="LEGACY_LOGON" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="426" y="13120" width="109.5" height="80" as="geometry" />
+          <mxGeometry x="1004" y="13221" width="109.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vjUfeb-SnomTdb9zTc2N-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-29" target="vjUfeb-SnomTdb9zTc2N-31">
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="vjUfeb-SnomTdb9zTc2N-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="13280" as="targetPoint" />
+            <mxPoint x="1258" y="13381" as="targetPoint" />
+            <mxPoint x="1134.0000000000005" y="13381" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vjUfeb-SnomTdb9zTc2N-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-29" target="vjUfeb-SnomTdb9zTc2N-33">
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="vjUfeb-SnomTdb9zTc2N-33">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480.7142857142858" y="13400" as="targetPoint" />
+            <mxPoint x="1058.7142857142858" y="13501" as="targetPoint" />
+            <mxPoint x="1058.4500000000003" y="13421" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-29" value="ENTS_UPDATE_REQ" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400.39" y="13240" width="160.71" height="80" as="geometry" />
+          <mxGeometry x="983.2" y="13341" width="151.1" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-31" value="Log the error :&amp;nbsp;&lt;br&gt;Ents update rqst timed out&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="13250" width="120" height="60" as="geometry" />
+          <mxGeometry x="1258" y="13351" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-33" target="vjUfeb-SnomTdb9zTc2N-38">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="13400" as="targetPoint" />
+            <mxPoint x="1218" y="13501" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-33" value="IMPERSONATION" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420.39" y="13385" width="120.71" height="80" as="geometry" />
+          <mxGeometry x="998.39" y="13486" width="120.71" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-38" value="&lt;div&gt;Set dest address everyone, since client&#39;s logical address is not available&lt;/div&gt;&lt;div&gt;Add FID_REASON ( reason is 0 - success, for error response CLI_ENTS_REFUSED passed.)&lt;/div&gt;&lt;div&gt;Add FID_USR_ID&lt;/div&gt;&lt;div&gt;if mTrTime.empty then add FID_RESP_TIME_TRACE_STR&lt;/div&gt;&lt;div&gt;Build the CLI_ENTS_OK message&lt;/div&gt;&lt;div&gt;send the message to the client&#39;s proxy address (ISI)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="13370" width="390" height="110" as="geometry" />
+          <mxGeometry x="1258" y="13471" width="390" height="110" as="geometry" />
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-39" value="sendCliEntsOk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="645" y="13350" width="90" height="20" as="geometry" />
+          <mxGeometry x="1223" y="13451" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-40" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="1490" y="9820" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-43" target="vjUfeb-SnomTdb9zTc2N-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1047" y="13661.857142857143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-43" target="vjUfeb-SnomTdb9zTc2N-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="887.3793103448277" y="13891" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-43" value="if configured check for entitlement update for client every second" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827.7142857142858" y="13631.57142857143" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-44" value="&lt;span&gt;checkClntsEntsUpd&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="744" y="13611" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-46" target="vjUfeb-SnomTdb9zTc2N-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1207" y="13661.285714285714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-46" value="travers for all the clients and call&amp;nbsp;clntEntsUpd for all of them one by one" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="997.5" y="13701.289999999999" width="139.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-48" target="vjUfeb-SnomTdb9zTc2N-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-48" value="&lt;div&gt;Extract FID_USER_NAME&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If special user, move to next client&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Extract FID_USR_ID&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Extract FID_CLNT_INIT_TIME&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if FID_CLNT_INIT_TIME is more by mTsaEntsUpdPeriod hours&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;send entitlement update request by calling: sendEntsUpdRqst(userid)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;stop and do not go to next client, to make sure server is not in failover&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1184" y="13631.58" width="363" height="199.42" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-49" value="clntEntsUpd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1147" y="13611" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-52" value="&lt;div&gt;&lt;div&gt;Create TSA request for ENTS_UPDATE_REQ&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Init TCP link, send connect request&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1692" y="13682" width="185" height="99.71" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-53" value="&lt;span&gt;sendEntsUpdRqst(userid)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1627" y="13662" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-57" target="vjUfeb-SnomTdb9zTc2N-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1047" y="13920.96551724138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-57" target="vjUfeb-SnomTdb9zTc2N-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="887.3793103448277" y="14091" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-57" value="check pending trial logons for timeout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827.4993103448277" y="13891" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-58" value="checkTrialLogonTimeout" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="13871" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-60" target="vjUfeb-SnomTdb9zTc2N-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1247" y="13920.96551724138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-60" value="Iterate&amp;nbsp;through mPendingTrialLogons and check for timeout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1043" y="13890.995517241381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-62" target="vjUfeb-SnomTdb9zTc2N-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1357" y="13921" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-62" target="vjUfeb-SnomTdb9zTc2N-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1247" y="13991" />
+              <mxPoint x="1103" y="13991" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-62" value="timeout ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1207" y="13880.96551724138" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-64" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1287" y="13901" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-66" value="&lt;font style=&quot;font-size: 10px&quot;&gt;continue to next request;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1112" y="13971" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-67" value="ctrl + F : for details" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1337" y="13891" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-68" value="sendTrialLoginResp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1287" y="13871" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-69" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="12790" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-71" target="vjUfeb-SnomTdb9zTc2N-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1057" y="14120.96551724138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-71" value="announcement messages to predefined slots" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827.7093103448276" y="14151" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-73" value="bcastIsiAnnounce" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="768" y="14131" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-75" target="vjUfeb-SnomTdb9zTc2N-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1247" y="14120.96551724138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-75" value="traverse through all the slots and call :&lt;br&gt;sendIsiAnnounceSlot&lt;br&gt;&lt;br&gt;for all the slots" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1033" y="14146" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-77" value="&lt;div&gt;Extract FID_LOCAL_BCAST_SLOT_FLAG&lt;/div&gt;&lt;div&gt;Extract FID_PREDEF_SLOT_FLAG&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;check if this is the right type of slot according to slotType - this part is not clear&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Extract FID_BCAST_ADDR&lt;/div&gt;&lt;div&gt;Extract FID_SLOT&lt;/div&gt;&lt;div&gt;Extract FID_CLNT_COUNT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;make final decision - to send message or not - this part is not clear&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Send message to slot broadcast address&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1207" y="14091" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-78" value="sendIsiAnnounceSlot" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1177" y="14071" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-79" target="vjUfeb-SnomTdb9zTc2N-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-79" value="mMultiCompCqPsvr" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="14410" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-81" value="CQCompIdMapper::checkTimeEverySec" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="375.5" y="14330" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-83" target="vjUfeb-SnomTdb9zTc2N-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="14449.96551724138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-83" value="&lt;div&gt;If Bind is starting up, read cache on startup by calling : mCquRequest.readCachedResponse&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If request to CQU is timed out,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;close the TL link so request will be retried.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;check if, it&#39;s &quot;Time to refresh CQ mapping !!!!&quot; - happens once in a day&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;If yes,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Reset the flag mMapInSynch, to indicate that I am out of sync &amp;amp; refresh CQ mapping.&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Also update mLastInSynchTime time with current time&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="14350" width="295" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-85" value="&lt;div&gt;Open etc/bind_he_cq.cache in read mode.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Read the file and store it in buffer(mCachedRespBody)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;After that parse the buffer : parseCQUResponse()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If failed, log error : &quot;Invalid cached CQU response&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="933" y="14390" width="297" height="120.03" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-86" value="&lt;span&gt;mCquRequest.readCachedResponse&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="14370" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-88" target="vjUfeb-SnomTdb9zTc2N-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-88" target="vjUfeb-SnomTdb9zTc2N-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-88" value="this will take care of timed out TSA requests of all kinds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="828" y="12910" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vjUfeb-SnomTdb9zTc2N-92" target="vjUfeb-SnomTdb9zTc2N-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-92" value="&lt;div&gt;this will take care of timed out TSA requests of all kinds&lt;/div&gt;&lt;div&gt;if configured check for entitlement update for client every second&lt;/div&gt;&lt;div&gt;check pending trial logons for timeout&lt;/div&gt;&lt;div&gt;announcement messages to predefined slots&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="12780" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjUfeb-SnomTdb9zTc2N-94" value="&lt;span&gt;checkTsaTimeouts&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="757.5" y="12890" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
