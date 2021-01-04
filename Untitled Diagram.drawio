@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-04T11:01:50.798Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="tEySZkXgFdwh9PfSPznx" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-04T11:22:04.534Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dss8QQ3hibHvLHzpslB0" version="14.1.8" type="github">
   <diagram id="Kk9kfs5vC2iuPm7ne2sn" name="Page-1">
     <mxGraphModel dx="1422" dy="-2802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1215,7 +1215,7 @@
             <mxPoint x="6430" y="5849.882352941177" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-253" value="if&amp;nbsp;tsa_logon_from_cache is on call&amp;nbsp;&lt;br&gt;tryLogonFromCache" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="v05QwtvTRVD2gzsDgyaa-253" value="if&amp;nbsp;tsa_logon_from_cache is on, &lt;br&gt;call&amp;nbsp; tryLogonFromCache" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="6000" y="5820" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-255" value="if cache record exist in bind shared memory retrieve it and store it in temp_rec by calling&lt;br&gt;getClntRecFromCache&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -3140,7 +3140,7 @@
           <mxGeometry x="530.5" y="12470.15" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-155" value="to PSVR&lt;br&gt;from sbind&lt;br&gt;To check if client is still connected" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="325" y="12405" width="190" height="50" as="geometry" />
+          <mxGeometry x="340" y="12450" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iAHMpoSP5QQGHjzuNT7X-157" value="&lt;div&gt;Extract FID_USER_LOGICAL_ADDRESS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Look in BSDMGR for record with the same FID_USER_LOGICAL_ADDRESS&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if client found,&lt;/div&gt;&lt;div&gt;&lt;span&gt; &lt;/span&gt;Extract FID_SESSION_LOG_ID&lt;/div&gt;&lt;div&gt;&lt;span&gt; &lt;/span&gt;Send STILL_SUPERBOUND to SBIND via REMQ&lt;/div&gt;&lt;div&gt;Else&lt;/div&gt;&lt;div&gt;&lt;span&gt; &lt;/span&gt;Send SUPERUNBIND_CLIENT_PLEASE to SBIND via REMQ&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="790" y="12410.31" width="300" height="179.69" as="geometry" />
@@ -3399,6 +3399,12 @@
         </mxCell>
         <mxCell id="vjUfeb-SnomTdb9zTc2N-94" value="&lt;span&gt;checkTsaTimeouts&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="757.5" y="12890" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4PCMbzIK6g8va0Skvpib-1" value="&lt;div&gt;extract token_value&lt;/div&gt;&lt;div&gt;extract net_addr_value&lt;/div&gt;&lt;div&gt;extract proxy_addr_value&lt;/div&gt;&lt;div&gt;extract ClntVersion&lt;/div&gt;&lt;div&gt;extract various flags&lt;/div&gt;&lt;div&gt;mTcpFlag, mUdpFlag, mMcastFlag, mLogonPacingFlag&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;if Mcast is set, extract mClntMcastGrp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;extract username_value&lt;/div&gt;&lt;div&gt;extract compid_value&lt;/div&gt;&lt;div&gt;extract userid_value&lt;/div&gt;&lt;div&gt;extract sess_logid_value&lt;/div&gt;&lt;div&gt;extract mPatternFileVer&lt;/div&gt;&lt;div&gt;extract mPatternFileVer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;set the mCookieFlag flag&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Log all the extracted data &amp;amp; stuff in tmp_rec&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;refuse all logons if in failover mode on SPSVR&lt;/div&gt;&lt;div&gt;refuse all logons if force_server_offline is on&lt;/div&gt;&lt;div&gt;refuse login if already &quot;mMaxLogonPerSec&quot; client tried login in same second&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;check if flag combination is correct, if not refuse logon&lt;/div&gt;&lt;div&gt;if tsa_logon_from_cache on,do not go to TSA for logon, just try to log in from cache!&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;create pending TSA request instance for &quot;TOKEN_LOGON&quot;&lt;/div&gt;&lt;div&gt;and rest you already know as above.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5565" y="5300" width="490" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4PCMbzIK6g8va0Skvpib-2" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="6080" y="5885" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
