@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-04T11:25:15.401Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="_47HDqxORV59FUbYbpf1" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-06T09:40:36.722Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="WEk0MPP4OTgxEibQ_Jq8" version="14.1.8" type="github">
   <diagram id="Kk9kfs5vC2iuPm7ne2sn" name="Page-1">
     <mxGraphModel dx="1422" dy="-2802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -758,29 +758,11 @@
         <mxCell id="v05QwtvTRVD2gzsDgyaa-97" value="sendSuperbindTsaClientPlease" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="5060" y="6030" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-99" target="v05QwtvTRVD2gzsDgyaa-103" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5120" y="6080" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-99" value="special &lt;br&gt;user ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4990" y="6040" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-100" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="5080" y="6060" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-103" target="v05QwtvTRVD2gzsDgyaa-105" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5246" y="6170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-103" target="v05QwtvTRVD2gzsDgyaa-109" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5560" y="6080" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-103" value="builds&amp;nbsp;SUPERBIND_TSA_CLIENT_PLEASE type message&lt;br&gt;and sends in to REMQ (sbind)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5112" y="6050" width="268" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-105" target="v05QwtvTRVD2gzsDgyaa-107" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1152,29 +1134,11 @@
         <mxCell id="v05QwtvTRVD2gzsDgyaa-235" value="sendSuperbindTsaClientPlease" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="5060" y="6030" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-237" target="v05QwtvTRVD2gzsDgyaa-241" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5120" y="6080" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-237" value="special &lt;br&gt;user ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4990" y="6040" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-238" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="5080" y="6060" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-241" target="v05QwtvTRVD2gzsDgyaa-243" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5246" y="6170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-241" target="v05QwtvTRVD2gzsDgyaa-247" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="5560" y="6080" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="v05QwtvTRVD2gzsDgyaa-241" value="builds&amp;nbsp;SUPERBIND_TSA_CLIENT_PLEASE type message&lt;br&gt;and sends in to REMQ (sbind)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5112" y="6050" width="268" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v05QwtvTRVD2gzsDgyaa-242" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="v05QwtvTRVD2gzsDgyaa-243" target="v05QwtvTRVD2gzsDgyaa-245" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -3400,7 +3364,7 @@
         <mxCell id="vjUfeb-SnomTdb9zTc2N-94" value="&lt;span&gt;checkTsaTimeouts&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="757.5" y="12890" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4PCMbzIK6g8va0Skvpib-2" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="4PCMbzIK6g8va0Skvpib-2" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="6080" y="5885" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
